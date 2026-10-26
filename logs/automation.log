@@ -30,3 +30,27 @@
 15:55:18.677 [main] INFO  api.test.UserTest - ************ User Updated ****************
 15:55:18.679 [main] INFO  api.test.UserTest - ************ Delete User ****************
 15:55:19.741 [main] INFO  api.test.UserTest - ************ User Deleted ****************
+16:36:44.041 [main] INFO  api.test.UserTest - ************ Create User ****************
+16:36:46.314 [main] INFO  api.test.UserTest - ************ User Created ****************
+16:36:46.325 [main] INFO  api.test.UserTest - ************ Get User ****************
+16:36:47.405 [main] INFO  api.test.UserTest - ************ User info displayed ****************
+16:36:47.407 [main] INFO  api.test.UserTest - ************ Update User ****************
+16:36:48.459 [main] INFO  api.test.UserTest - ************ User Updated ****************
+16:36:48.460 [main] INFO  api.test.UserTest - ************ Delete User ****************
+16:36:49.521 [main] INFO  api.test.UserTest - ************ User Deleted ****************
+16:46:08.026 [main] INFO  api.test.UserTest - ************ Create User ****************
+16:46:10.357 [main] INFO  api.test.UserTest - ************ User Created ****************
+16:46:10.376 [main] INFO  api.test.UserTest - ************ Get User ****************
+16:46:11.506 [main] INFO  api.test.UserTest - ************ User info displayed ****************
+16:46:11.508 [main] INFO  api.test.UserTest - ************ Update User ****************
+16:46:12.570 [main] INFO  api.test.UserTest - ************ User Updated ****************
+16:46:12.572 [main] INFO  api.test.UserTest - ************ Delete User ****************
+16:46:13.616 [main] INFO  api.test.UserTest - ************ User Deleted ****************
+16:46:29.380 [main] INFO  api.test.UserTest - ************ Create User ****************
+16:46:32.741 [main] INFO  api.test.UserTest - ************ User Created ****************
+16:46:32.751 [main] INFO  api.test.UserTest - ************ Get User ****************
+16:46:33.828 [main] INFO  api.test.UserTest - ************ User info displayed ****************
+16:46:33.830 [main] INFO  api.test.UserTest - ************ Update User ****************
+16:46:34.887 [main] INFO  api.test.UserTest - ************ User Updated ****************
+16:46:34.888 [main] INFO  api.test.UserTest - ************ Delete User ****************
+16:46:35.960 [main] INFO  api.test.UserTest - ************ User Deleted ****************
