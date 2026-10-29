@@ -1,33 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-10-26T16:46:28 IST" name="PetSuite" finished-at="2026-10-26T16:46:35 IST" duration-ms="7245">
+  <suite started-at="2026-10-29T14:48:56 IST" name="BooksAPISuite" finished-at="2026-10-29T14:49:03 IST" duration-ms="7628">
     <groups>
     </groups>
-    <test started-at="2026-10-26T16:46:28 IST" name="PetTest" finished-at="2026-10-26T16:46:35 IST" duration-ms="7245">
-      <class name="api.test.UserTest">
-        <test-method is-config="true" signature="setupData()[pri:0, instance:api.test.UserTest@62150f9e]" started-at="2026-10-26T16:46:28 IST" name="setupData" finished-at="2026-10-26T16:46:29 IST" duration-ms="488" status="PASS">
+    <test started-at="2026-10-29T14:48:56 IST" name="BooksAPITest" finished-at="2026-10-29T14:49:03 IST" duration-ms="7628">
+      <class name="api.test.BooksAPITest">
+        <test-method is-config="true" signature="setupData()[pri:0, instance:api.test.BooksAPITest@6aba2b86]" started-at="2026-10-29T14:48:56 IST" name="setupData" finished-at="2026-10-29T14:48:56 IST" duration-ms="151" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupData -->
-        <test-method signature="testCreateUser()[pri:1, instance:api.test.UserTest@62150f9e]" started-at="2026-10-26T16:46:29 IST" name="testCreateUser" finished-at="2026-10-26T16:46:32 IST" duration-ms="3364" status="PASS">
+        <test-method signature="TC0_APIAuthentication()[pri:0, instance:api.test.BooksAPITest@6aba2b86]" started-at="2026-10-29T14:48:56 IST" name="TC0_APIAuthentication" finished-at="2026-10-29T14:48:59 IST" duration-ms="3429" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testCreateUser -->
-        <test-method signature="testGetUserByUsernam()[pri:2, instance:api.test.UserTest@62150f9e]" started-at="2026-10-26T16:46:32 IST" name="testGetUserByUsernam" finished-at="2026-10-26T16:46:33 IST" duration-ms="1078" status="PASS">
+        </test-method> <!-- TC0_APIAuthentication -->
+        <test-method signature="TC1_verifyAPIStatus()[pri:0, instance:api.test.BooksAPITest@6aba2b86]" started-at="2026-10-29T14:48:59 IST" name="TC1_verifyAPIStatus" finished-at="2026-10-29T14:49:00 IST" duration-ms="676" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testGetUserByUsernam -->
-        <test-method signature="testUpdateUserByUsername()[pri:3, instance:api.test.UserTest@62150f9e]" started-at="2026-10-26T16:46:33 IST" name="testUpdateUserByUsername" finished-at="2026-10-26T16:46:34 IST" duration-ms="1058" status="PASS">
+        </test-method> <!-- TC1_verifyAPIStatus -->
+        <test-method signature="TC2_verifyUserAbleToRetrieveListOfBooks()[pri:0, instance:api.test.BooksAPITest@6aba2b86]" started-at="2026-10-29T14:49:00 IST" name="TC2_verifyUserAbleToRetrieveListOfBooks" finished-at="2026-10-29T14:49:01 IST" duration-ms="718" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testUpdateUserByUsername -->
-        <test-method signature="testDeleteUserByUsername()[pri:4, instance:api.test.UserTest@62150f9e]" started-at="2026-10-26T16:46:34 IST" name="testDeleteUserByUsername" finished-at="2026-10-26T16:46:35 IST" duration-ms="1072" status="PASS">
+        </test-method> <!-- TC2_verifyUserAbleToRetrieveListOfBooks -->
+        <test-method signature="TC4_verifyUserAbleToSubmitAndSeeTheOrder()[pri:0, instance:api.test.BooksAPITest@6aba2b86]" started-at="2026-10-29T14:49:01 IST" name="TC4_verifyUserAbleToSubmitAndSeeTheOrder" finished-at="2026-10-29T14:49:01 IST" duration-ms="589" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testDeleteUserByUsername -->
-      </class> <!-- api.test.UserTest -->
-    </test> <!-- PetTest -->
-  </suite> <!-- PetSuite -->
+        </test-method> <!-- TC4_verifyUserAbleToSubmitAndSeeTheOrder -->
+        <test-method signature="TC5_verifyUserAbleToUpdateTheOrder()[pri:0, instance:api.test.BooksAPITest@6aba2b86]" started-at="2026-10-29T14:49:01 IST" name="TC5_verifyUserAbleToUpdateTheOrder" finished-at="2026-10-29T14:49:02 IST" duration-ms="869" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC5_verifyUserAbleToUpdateTheOrder -->
+        <test-method signature="TC6_verifyUserAbleToDeleteTheOrder()[pri:0, instance:api.test.BooksAPITest@6aba2b86]" started-at="2026-10-29T14:49:02 IST" name="TC6_verifyUserAbleToDeleteTheOrder" finished-at="2026-10-29T14:49:03 IST" duration-ms="542" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC6_verifyUserAbleToDeleteTheOrder -->
+        <test-method signature="TC7_verifyUserAbleToRetrieveListOfAllThePlacedOrders()[pri:0, instance:api.test.BooksAPITest@6aba2b86]" started-at="2026-10-29T14:49:03 IST" name="TC7_verifyUserAbleToRetrieveListOfAllThePlacedOrders" finished-at="2026-10-29T14:49:03 IST" duration-ms="457" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC7_verifyUserAbleToRetrieveListOfAllThePlacedOrders -->
+      </class> <!-- api.test.BooksAPITest -->
+    </test> <!-- BooksAPITest -->
+  </suite> <!-- BooksAPISuite -->
 </testng-results>

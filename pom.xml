@@ -13,7 +13,7 @@
                 <version>3.0.0-M7</version>
                 <configuration>
                     <suiteXmlFiles>
-                        <suiteXmlFile>testng.xml</suiteXmlFile>
+                        <suiteXmlFile>testngBooksAPI.xml</suiteXmlFile>
                     </suiteXmlFiles>
                 </configuration>
             </plugin>
@@ -63,9 +63,10 @@
 </dependency>
 <!-- https://mvnrepository.com/artifact/com.github.java-json-tools/json-schema-validator -->
 <dependency>
-    <groupId>com.github.java-json-tools</groupId>
+    <groupId>io.rest-assured</groupId>
     <artifactId>json-schema-validator</artifactId>
-    <version>2.2.14</version>
+    <version>5.5.6</version>
+    <scope>test</scope>
 </dependency>
 <!-- https://mvnrepository.com/artifact/com.google.code.gson/gson -->
 <dependency>

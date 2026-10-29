@@ -4,5 +4,8 @@ C:\Users\karti\eclipse-workspace\PetStoreAPIAutomation\src\test\java\api\Endpoin
 C:\Users\karti\eclipse-workspace\PetStoreAPIAutomation\src\test\java\api\utilities\ExtentReporterManager.java
 C:\Users\karti\eclipse-workspace\PetStoreAPIAutomation\src\test\java\api\test\DDTests.java
 C:\Users\karti\eclipse-workspace\PetStoreAPIAutomation\src\test\java\api\utilities\XLUtility.java
+C:\Users\karti\eclipse-workspace\PetStoreAPIAutomation\src\test\java\api\test\BooksAPITest.java
 C:\Users\karti\eclipse-workspace\PetStoreAPIAutomation\src\test\java\api\test\UserTest.java
+C:\Users\karti\eclipse-workspace\PetStoreAPIAutomation\src\test\java\api\Endpoints\BooksAPI.java
 C:\Users\karti\eclipse-workspace\PetStoreAPIAutomation\src\test\java\api\Payload\User.java
+C:\Users\karti\eclipse-workspace\PetStoreAPIAutomation\src\test\java\api\Payload\BooksPayload.java

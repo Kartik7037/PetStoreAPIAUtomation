@@ -1,33 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-10-21T15:11:56 IST" name="PetSuite" finished-at="2026-10-21T15:12:03 IST" duration-ms="6112">
+  <suite started-at="2026-10-29T14:45:15 IST" name="Default suite" finished-at="2026-10-29T14:45:19 IST" duration-ms="3416">
     <groups>
     </groups>
-    <test started-at="2026-10-21T15:11:56 IST" name="PetTest" finished-at="2026-10-21T15:12:03 IST" duration-ms="6112">
-      <class name="api.test.UserTest">
-        <test-method is-config="true" signature="setupData()[pri:0, instance:api.test.UserTest@611889f4]" started-at="2026-10-21T15:11:57 IST" name="setupData" finished-at="2026-10-21T15:11:57 IST" duration-ms="525" status="PASS">
+    <test started-at="2026-10-29T14:45:15 IST" name="Default test" finished-at="2026-10-29T14:45:19 IST" duration-ms="3416">
+      <class name="api.test.BooksAPITest">
+        <test-method is-config="true" signature="setupData()[pri:0, instance:api.test.BooksAPITest@66d3eec0]" started-at="2026-10-29T14:45:15 IST" name="setupData" finished-at="2026-10-29T14:45:16 IST" duration-ms="212" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupData -->
-        <test-method signature="testCreateUser()[pri:1, instance:api.test.UserTest@611889f4]" started-at="2026-10-21T15:11:57 IST" name="testCreateUser" finished-at="2026-10-21T15:11:59 IST" duration-ms="2234" status="PASS">
+        <test-method signature="TC0_APIAuthentication()[pri:0, instance:api.test.BooksAPITest@66d3eec0]" started-at="2026-10-29T14:45:16 IST" name="TC0_APIAuthentication" finished-at="2026-10-29T14:45:18 IST" duration-ms="2108" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testCreateUser -->
-        <test-method signature="testGetUserByUsernam()[pri:2, instance:api.test.UserTest@611889f4]" started-at="2026-10-21T15:11:59 IST" name="testGetUserByUsernam" finished-at="2026-10-21T15:12:00 IST" duration-ms="1041" status="PASS">
+        </test-method> <!-- TC0_APIAuthentication -->
+        <test-method signature="TC4_verifyUserAbleToSubmitAndSeeTheOrder()[pri:0, instance:api.test.BooksAPITest@66d3eec0]" started-at="2026-10-29T14:45:18 IST" name="TC4_verifyUserAbleToSubmitAndSeeTheOrder" finished-at="2026-10-29T14:45:18 IST" duration-ms="600" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testGetUserByUsernam -->
-        <test-method signature="testUpdateUserByUsername()[pri:3, instance:api.test.UserTest@611889f4]" started-at="2026-10-21T15:12:00 IST" name="testUpdateUserByUsername" finished-at="2026-10-21T15:12:02 IST" duration-ms="1039" status="PASS">
+        </test-method> <!-- TC4_verifyUserAbleToSubmitAndSeeTheOrder -->
+        <test-method signature="TC7_verifyUserAbleToRetrieveListOfAllThePlacedOrders()[pri:0, instance:api.test.BooksAPITest@66d3eec0]" started-at="2026-10-29T14:45:18 IST" name="TC7_verifyUserAbleToRetrieveListOfAllThePlacedOrders" finished-at="2026-10-29T14:45:19 IST" duration-ms="468" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testUpdateUserByUsername -->
-        <test-method signature="testDeleteUserByUsername()[pri:4, instance:api.test.UserTest@611889f4]" started-at="2026-10-21T15:12:02 IST" name="testDeleteUserByUsername" finished-at="2026-10-21T15:12:03 IST" duration-ms="1031" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testDeleteUserByUsername -->
-      </class> <!-- api.test.UserTest -->
-    </test> <!-- PetTest -->
-  </suite> <!-- PetSuite -->
+        </test-method> <!-- TC7_verifyUserAbleToRetrieveListOfAllThePlacedOrders -->
+      </class> <!-- api.test.BooksAPITest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

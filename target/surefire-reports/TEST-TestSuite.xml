@@ -1,24 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="7.821" tests="4" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="8.233" tests="7" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="C:\Users\karti\eclipse-workspace\PetStoreAPIAutomation\target\test-classes;C:\Users\karti\eclipse-workspace\PetStoreAPIAutomation\target\classes;C:\Users\karti\.m2\repository\io\rest-assured\rest-assured\5.5.6\rest-assured-5.5.6.jar;C:\Users\karti\.m2\repository\org\apache\groovy\groovy\4.0.22\groovy-4.0.22.jar;C:\Users\karti\.m2\repository\org\apache\groovy\groovy-xml\4.0.22\groovy-xml-4.0.22.jar;C:\Users\karti\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\karti\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\karti\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\karti\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\karti\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\karti\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\karti\.m2\repository\io\rest-assured\xml-path\5.5.6\xml-path-5.5.6.jar;C:\Users\karti\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\karti\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\karti\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\karti\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\karti\.m2\repository\com\github\scribejava\scribejava-apis\8.3.1\scribejava-apis-8.3.1.jar;C:\Users\karti\.m2\repository\com\github\scribejava\scribejava-core\8.3.1\scribejava-core-8.3.1.jar;C:\Users\karti\.m2\repository\com\github\scribejava\scribejava-java8\8.3.1\scribejava-java8-8.3.1.jar;C:\Users\karti\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.12.3\jackson-databind-2.12.3.jar;C:\Users\karti\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.12.3\jackson-annotations-2.12.3.jar;C:\Users\karti\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.12.3\jackson-core-2.12.3.jar;C:\Users\karti\.m2\repository\org\json\json\20250517\json-20250517.jar;C:\Users\karti\.m2\repository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar;C:\Users\karti\.m2\repository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar;C:\Users\karti\.m2\repository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar;C:\Users\karti\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\karti\.m2\repository\com\google\guava\guava\28.2-android\guava-28.2-android.jar;C:\Users\karti\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\karti\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\karti\.m2\repository\org\checkerframework\checker-compat-qual\2.5.5\checker-compat-qual-2.5.5.jar;C:\Users\karti\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\karti\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\karti\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\karti\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\karti\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\karti\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\karti\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\karti\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\karti\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\karti\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\karti\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\karti\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\karti\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\karti\.m2\repository\com\google\code\gson\gson\2.13.1\gson-2.13.1.jar;C:\Users\karti\.m2\repository\com\google\errorprone\error_prone_annotations\2.38.0\error_prone_annotations-2.38.0.jar;C:\Users\karti\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\karti\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\karti\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\karti\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\karti\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\karti\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\karti\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\karti\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\karti\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\karti\.m2\repository\org\apache\poi\poi\5.2.2\poi-5.2.2.jar;C:\Users\karti\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\karti\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\karti\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\karti\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\karti\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\karti\.m2\repository\org\apache\poi\poi-ooxml\5.2.2\poi-ooxml-5.2.2.jar;C:\Users\karti\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.2\poi-ooxml-lite-5.2.2.jar;C:\Users\karti\.m2\repository\org\apache\xmlbeans\xmlbeans\5.0.3\xmlbeans-5.0.3.jar;C:\Users\karti\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\karti\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;C:\Users\karti\.m2\repository\org\apache\logging\log4j\log4j-api\2.12.4\log4j-api-2.12.4.jar;C:\Users\karti\.m2\repository\org\projectlombok\lombok\1.18.42\lombok-1.18.42.jar;C:\Users\karti\.m2\repository\org\apache\logging\log4j\log4j-core\2.12.4\log4j-core-2.12.4.jar;"/>
+    <property name="java.class.path" value="C:\Users\karti\eclipse-workspace\PetStoreAPIAutomation\target\test-classes;C:\Users\karti\eclipse-workspace\PetStoreAPIAutomation\target\classes;C:\Users\karti\.m2\repository\io\rest-assured\rest-assured\5.5.6\rest-assured-5.5.6.jar;C:\Users\karti\.m2\repository\org\apache\groovy\groovy\4.0.22\groovy-4.0.22.jar;C:\Users\karti\.m2\repository\org\apache\groovy\groovy-xml\4.0.22\groovy-xml-4.0.22.jar;C:\Users\karti\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\karti\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\karti\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\karti\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\karti\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\karti\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\karti\.m2\repository\io\rest-assured\xml-path\5.5.6\xml-path-5.5.6.jar;C:\Users\karti\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\karti\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\karti\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\karti\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\karti\.m2\repository\com\github\scribejava\scribejava-apis\8.3.1\scribejava-apis-8.3.1.jar;C:\Users\karti\.m2\repository\com\github\scribejava\scribejava-core\8.3.1\scribejava-core-8.3.1.jar;C:\Users\karti\.m2\repository\com\github\scribejava\scribejava-java8\8.3.1\scribejava-java8-8.3.1.jar;C:\Users\karti\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.12.3\jackson-databind-2.12.3.jar;C:\Users\karti\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.12.3\jackson-annotations-2.12.3.jar;C:\Users\karti\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.12.3\jackson-core-2.12.3.jar;C:\Users\karti\.m2\repository\org\json\json\20250517\json-20250517.jar;C:\Users\karti\.m2\repository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar;C:\Users\karti\.m2\repository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar;C:\Users\karti\.m2\repository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar;C:\Users\karti\.m2\repository\io\rest-assured\json-schema-validator\5.5.6\json-schema-validator-5.5.6.jar;C:\Users\karti\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\karti\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\karti\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\karti\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\karti\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\karti\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\karti\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\karti\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\karti\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\karti\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\karti\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\karti\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\karti\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\karti\.m2\repository\com\google\guava\guava\33.2.1-jre\guava-33.2.1-jre.jar;C:\Users\karti\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\karti\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\karti\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\karti\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\karti\.m2\repository\com\google\code\gson\gson\2.13.1\gson-2.13.1.jar;C:\Users\karti\.m2\repository\com\google\errorprone\error_prone_annotations\2.38.0\error_prone_annotations-2.38.0.jar;C:\Users\karti\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\karti\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\karti\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\karti\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\karti\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\karti\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\karti\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\karti\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\karti\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\karti\.m2\repository\org\apache\poi\poi\5.2.2\poi-5.2.2.jar;C:\Users\karti\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\karti\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\karti\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\karti\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\karti\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\karti\.m2\repository\org\apache\poi\poi-ooxml\5.2.2\poi-ooxml-5.2.2.jar;C:\Users\karti\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.2\poi-ooxml-lite-5.2.2.jar;C:\Users\karti\.m2\repository\org\apache\xmlbeans\xmlbeans\5.0.3\xmlbeans-5.0.3.jar;C:\Users\karti\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\karti\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;C:\Users\karti\.m2\repository\org\apache\logging\log4j\log4j-api\2.12.4\log4j-api-2.12.4.jar;C:\Users\karti\.m2\repository\org\projectlombok\lombok\1.18.42\lombok-1.18.42.jar;C:\Users\karti\.m2\repository\org\apache\logging\log4j\log4j-core\2.12.4\log4j-core-2.12.4.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
     <property name="java.vendor.url" value="https://java.oracle.com/"/>
     <property name="user.timezone" value="Asia/Calcutta"/>
-    <property name="org.apache.logging.log4j.assignedSequences" value="6708"/>
     <property name="os.name" value="Windows 10"/>
     <property name="java.vm.specification.version" value="17"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17.0.5\bin"/>
-    <property name="sun.java.command" value="C:\Users\karti\AppData\Local\Temp\surefire8149497316168724833\surefirebooter-20261026164628178_3.jar C:\Users\karti\AppData\Local\Temp\surefire8149497316168724833 2026-10-26T16-46-27_851-jvmRun1 surefire-20261026164628178_1tmp surefire_0-20261026164628178_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\karti\AppData\Local\Temp\surefire7742314408857117742\surefirebooter-20261029144855431_3.jar C:\Users\karti\AppData\Local\Temp\surefire7742314408857117742 2026-10-29T14-48-55_118-jvmRun1 surefire-20261029144855431_1tmp surefire_0-20261029144855431_2tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="C:\Users\karti\eclipse-workspace\PetStoreAPIAutomation\target\test-classes;C:\Users\karti\eclipse-workspace\PetStoreAPIAutomation\target\classes;C:\Users\karti\.m2\repository\io\rest-assured\rest-assured\5.5.6\rest-assured-5.5.6.jar;C:\Users\karti\.m2\repository\org\apache\groovy\groovy\4.0.22\groovy-4.0.22.jar;C:\Users\karti\.m2\repository\org\apache\groovy\groovy-xml\4.0.22\groovy-xml-4.0.22.jar;C:\Users\karti\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\karti\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\karti\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\karti\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\karti\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\karti\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\karti\.m2\repository\io\rest-assured\xml-path\5.5.6\xml-path-5.5.6.jar;C:\Users\karti\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\karti\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\karti\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\karti\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\karti\.m2\repository\com\github\scribejava\scribejava-apis\8.3.1\scribejava-apis-8.3.1.jar;C:\Users\karti\.m2\repository\com\github\scribejava\scribejava-core\8.3.1\scribejava-core-8.3.1.jar;C:\Users\karti\.m2\repository\com\github\scribejava\scribejava-java8\8.3.1\scribejava-java8-8.3.1.jar;C:\Users\karti\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.12.3\jackson-databind-2.12.3.jar;C:\Users\karti\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.12.3\jackson-annotations-2.12.3.jar;C:\Users\karti\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.12.3\jackson-core-2.12.3.jar;C:\Users\karti\.m2\repository\org\json\json\20250517\json-20250517.jar;C:\Users\karti\.m2\repository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar;C:\Users\karti\.m2\repository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar;C:\Users\karti\.m2\repository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar;C:\Users\karti\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\karti\.m2\repository\com\google\guava\guava\28.2-android\guava-28.2-android.jar;C:\Users\karti\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\karti\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\karti\.m2\repository\org\checkerframework\checker-compat-qual\2.5.5\checker-compat-qual-2.5.5.jar;C:\Users\karti\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\karti\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\karti\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\karti\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\karti\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\karti\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\karti\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\karti\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\karti\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\karti\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\karti\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\karti\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\karti\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\karti\.m2\repository\com\google\code\gson\gson\2.13.1\gson-2.13.1.jar;C:\Users\karti\.m2\repository\com\google\errorprone\error_prone_annotations\2.38.0\error_prone_annotations-2.38.0.jar;C:\Users\karti\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\karti\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\karti\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\karti\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\karti\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\karti\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\karti\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\karti\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\karti\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\karti\.m2\repository\org\apache\poi\poi\5.2.2\poi-5.2.2.jar;C:\Users\karti\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\karti\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\karti\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\karti\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\karti\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\karti\.m2\repository\org\apache\poi\poi-ooxml\5.2.2\poi-ooxml-5.2.2.jar;C:\Users\karti\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.2\poi-ooxml-lite-5.2.2.jar;C:\Users\karti\.m2\repository\org\apache\xmlbeans\xmlbeans\5.0.3\xmlbeans-5.0.3.jar;C:\Users\karti\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\karti\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;C:\Users\karti\.m2\repository\org\apache\logging\log4j\log4j-api\2.12.4\log4j-api-2.12.4.jar;C:\Users\karti\.m2\repository\org\projectlombok\lombok\1.18.42\lombok-1.18.42.jar;C:\Users\karti\.m2\repository\org\apache\logging\log4j\log4j-core\2.12.4\log4j-core-2.12.4.jar;"/>
+    <property name="surefire.test.class.path" value="C:\Users\karti\eclipse-workspace\PetStoreAPIAutomation\target\test-classes;C:\Users\karti\eclipse-workspace\PetStoreAPIAutomation\target\classes;C:\Users\karti\.m2\repository\io\rest-assured\rest-assured\5.5.6\rest-assured-5.5.6.jar;C:\Users\karti\.m2\repository\org\apache\groovy\groovy\4.0.22\groovy-4.0.22.jar;C:\Users\karti\.m2\repository\org\apache\groovy\groovy-xml\4.0.22\groovy-xml-4.0.22.jar;C:\Users\karti\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\karti\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\karti\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\karti\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\karti\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\karti\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\karti\.m2\repository\io\rest-assured\xml-path\5.5.6\xml-path-5.5.6.jar;C:\Users\karti\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\karti\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\karti\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\karti\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\karti\.m2\repository\com\github\scribejava\scribejava-apis\8.3.1\scribejava-apis-8.3.1.jar;C:\Users\karti\.m2\repository\com\github\scribejava\scribejava-core\8.3.1\scribejava-core-8.3.1.jar;C:\Users\karti\.m2\repository\com\github\scribejava\scribejava-java8\8.3.1\scribejava-java8-8.3.1.jar;C:\Users\karti\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.12.3\jackson-databind-2.12.3.jar;C:\Users\karti\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.12.3\jackson-annotations-2.12.3.jar;C:\Users\karti\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.12.3\jackson-core-2.12.3.jar;C:\Users\karti\.m2\repository\org\json\json\20250517\json-20250517.jar;C:\Users\karti\.m2\repository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar;C:\Users\karti\.m2\repository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar;C:\Users\karti\.m2\repository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar;C:\Users\karti\.m2\repository\io\rest-assured\json-schema-validator\5.5.6\json-schema-validator-5.5.6.jar;C:\Users\karti\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\karti\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\karti\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\karti\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\karti\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\karti\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\karti\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\karti\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\karti\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\karti\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\karti\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\karti\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\karti\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\karti\.m2\repository\com\google\guava\guava\33.2.1-jre\guava-33.2.1-jre.jar;C:\Users\karti\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\karti\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\karti\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\karti\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\karti\.m2\repository\com\google\code\gson\gson\2.13.1\gson-2.13.1.jar;C:\Users\karti\.m2\repository\com\google\errorprone\error_prone_annotations\2.38.0\error_prone_annotations-2.38.0.jar;C:\Users\karti\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\karti\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\karti\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\karti\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\karti\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\karti\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\karti\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\karti\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\karti\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\karti\.m2\repository\org\apache\poi\poi\5.2.2\poi-5.2.2.jar;C:\Users\karti\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\karti\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\karti\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\karti\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\karti\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\karti\.m2\repository\org\apache\poi\poi-ooxml\5.2.2\poi-ooxml-5.2.2.jar;C:\Users\karti\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.2\poi-ooxml-lite-5.2.2.jar;C:\Users\karti\.m2\repository\org\apache\xmlbeans\xmlbeans\5.0.3\xmlbeans-5.0.3.jar;C:\Users\karti\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\karti\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;C:\Users\karti\.m2\repository\org\apache\logging\log4j\log4j-api\2.12.4\log4j-api-2.12.4.jar;C:\Users\karti\.m2\repository\org\projectlombok\lombok\1.18.42\lombok-1.18.42.jar;C:\Users\karti\.m2\repository\org\apache\logging\log4j\log4j-core\2.12.4\log4j-core-2.12.4.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\karti"/>
     <property name="user.language" value="en"/>
@@ -31,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\karti\AppData\Local\Temp\surefire8149497316168724833\surefirebooter-20261026164628178_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\karti\AppData\Local\Temp\surefire7742314408857117742\surefirebooter-20261029144855431_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.5+9-LTS-191"/>
@@ -57,21 +56,26 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="testCreateUser" classname="api.test.UserTest" time="3.375">
-    <system-out><![CDATA[HTTP/1.1 200 OK
-Date: Mon, 26 Oct 2026 11:16:31 GMT
+  <testcase name="TC0_APIAuthentication" classname="api.test.BooksAPITest" time="3.436">
+    <system-out><![CDATA[Santos Ryan
+HTTP/1.1 201 Created
 Content-Type: application/json
-Transfer-Encoding: chunked
+Content-Length: 82
 Connection: keep-alive
+Date: Thu, 29 Oct 2026 09:18:57 GMT
+X-Amzn-Trace-Id: Root=1-6ae30f81-206ecba23e9684be44aff227;Parent=4cf993f2f54d66dc;Sampled=0;Lineage=1:9ee0f5ed:0
+x-amzn-RequestId: 71b8d60d-41cf-47d8-8c93-f7c7c5e3842a
 Access-Control-Allow-Origin: *
-Access-Control-Allow-Methods: GET, POST, DELETE, PUT
-Access-Control-Allow-Headers: Content-Type, api_key, Authorization
-Server: Jetty(9.2.9.v20150224)
+Access-Control-Allow-Headers: Content-Type, Authorization, X-Amz-Date, X-Api-Key, X-Amz-Security-Token
+x-amz-apigw-id: F_9cYEzJoAMEOvg=
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, PATCH
+X-Cache: Miss from cloudfront
+Via: 1.1 b05256e5803ee48f876b62991082abe4.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: BLR50-P4
+X-Amz-Cf-Id: hlysjE4nvROa9KrVLY0e_qhJ7xI22RXtJbIqcuhNzZ99jG9-YKAK-g==
 
 {
-    "code": 200,
-    "type": "unknown",
-    "message": "1384210339"
+    "accessToken": "e2c34499e9ba1862f45f8e8b90a4a405f7cce3f3aee60bf7e344f93b14bde864"
 }
 ]]></system-out>
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
@@ -79,62 +83,265 @@ SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
 ]]></system-err>
   </testcase>
-  <testcase name="testGetUserByUsernam" classname="api.test.UserTest" time="1.079">
+  <testcase name="TC1_verifyAPIStatus" classname="api.test.BooksAPITest" time="0.68">
     <system-out><![CDATA[HTTP/1.1 200 OK
-Date: Mon, 26 Oct 2026 11:16:32 GMT
 Content-Type: application/json
-Transfer-Encoding: chunked
+Content-Length: 15
 Connection: keep-alive
+Date: Thu, 29 Oct 2026 09:18:59 GMT
+X-Amzn-Trace-Id: Root=1-6ae30f83-435f17b41c29fe800f8014ab;Parent=21389ca5e40deba4;Sampled=0;Lineage=1:9ee0f5ed:0
+x-amzn-RequestId: 1b989c0b-f651-4f91-8819-1eea3b35ad94
 Access-Control-Allow-Origin: *
-Access-Control-Allow-Methods: GET, POST, DELETE, PUT
-Access-Control-Allow-Headers: Content-Type, api_key, Authorization
-Server: Jetty(9.2.9.v20150224)
+Access-Control-Allow-Headers: Content-Type, Authorization, X-Amz-Date, X-Api-Key, X-Amz-Security-Token
+x-amz-apigw-id: F_9cjGf6IAMEEVw=
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, PATCH
+X-Cache: Miss from cloudfront
+Via: 1.1 2c89cca1ce7a0bb2069a1fa1ddabec0e.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: BLR50-P4
+X-Amz-Cf-Id: DQVVlG8mXU1zUlMJoTGWuxNnCWVxX4RqAvqRE4wfbYGCVW1QJf7eBA==
 
 {
-    "id": 1384210339,
-    "username": "ivey.leuschke",
-    "lastName": "Prosacco",
-    "email": "marlin.runolfsdottir@example.com",
-    "password": "4sjamz2",
-    "phone": "1-024-897-6278",
-    "userStatus": 0
+    "status": "OK"
 }
 ]]></system-out>
   </testcase>
-  <testcase name="testUpdateUserByUsername" classname="api.test.UserTest" time="1.058">
+  <testcase name="TC2_verifyUserAbleToRetrieveListOfBooks" classname="api.test.BooksAPITest" time="0.719">
     <system-out><![CDATA[HTTP/1.1 200 OK
-Date: Mon, 26 Oct 2026 11:16:33 GMT
 Content-Type: application/json
-Transfer-Encoding: chunked
+Content-Length: 417
 Connection: keep-alive
+Date: Thu, 29 Oct 2026 09:18:59 GMT
+X-Amzn-Trace-Id: Root=1-6ae30f83-5ff318911651ab8063c10b12;Parent=69bc17772bd91215;Sampled=0;Lineage=1:9ee0f5ed:0
+x-amzn-RequestId: 1c089ecf-abf7-4eb7-9128-d0f18d829e31
 Access-Control-Allow-Origin: *
-Access-Control-Allow-Methods: GET, POST, DELETE, PUT
-Access-Control-Allow-Headers: Content-Type, api_key, Authorization
-Server: Jetty(9.2.9.v20150224)
+Access-Control-Allow-Headers: Content-Type, Authorization, X-Amz-Date, X-Api-Key, X-Amz-Security-Token
+x-amz-apigw-id: F_9cqFO_IAMEGDA=
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, PATCH
+X-Cache: Miss from cloudfront
+Via: 1.1 9a5f7993ae8aa6b11950605aada73158.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: BLR50-P4
+X-Amz-Cf-Id: Jpf1H12Jv6h5FCIHXyLmehyI04FU-OGD4-ceqUAl6OF1BN698CaDjw==
+
+[
+    {
+        "id": 1,
+        "name": "The Russian",
+        "type": "fiction",
+        "available": true
+    },
+    {
+        "id": 3,
+        "name": "The Vanishing Half",
+        "type": "fiction",
+        "available": true
+    },
+    {
+        "id": 4,
+        "name": "The Midnight Library",
+        "type": "fiction",
+        "available": true
+    },
+    {
+        "id": 6,
+        "name": "Viscount Who Loved Me",
+        "type": "fiction",
+        "available": true
+    },
+    {
+        "id": 2,
+        "name": "Just as I Am",
+        "type": "non-fiction",
+        "available": false
+    },
+    {
+        "id": 5,
+        "name": "Untamed",
+        "type": "non-fiction",
+        "available": true
+    }
+]
+]]></system-out>
+  </testcase>
+  <testcase name="TC4_verifyUserAbleToSubmitAndSeeTheOrder" classname="api.test.BooksAPITest" time="0.589">
+    <system-out><![CDATA[HTTP/1.1 201 Created
+Content-Type: application/json
+Content-Length: 50
+Connection: keep-alive
+Date: Thu, 29 Oct 2026 09:19:00 GMT
+X-Amzn-Trace-Id: Root=1-6ae30f84-7d22d4683f83a4844d0dfb79;Parent=01860f0a8e778cbd;Sampled=0;Lineage=1:9ee0f5ed:0
+x-amzn-RequestId: db592eb4-290d-4926-a8fc-0f4a9bd1a214
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Headers: Content-Type, Authorization, X-Amz-Date, X-Api-Key, X-Amz-Security-Token
+x-amz-apigw-id: F_9ctFJ9oAMEtoQ=
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, PATCH
+X-Cache: Miss from cloudfront
+Via: 1.1 7f91d3358cb8b5b50ea653cbde2d162c.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: BLR50-P4
+X-Amz-Cf-Id: Zs08vdwFJ5XNhC4qUprmFuZiVaMO1_F8McL1rDmHhE_iDPfkhKfGsg==
 
 {
-    "code": 200,
-    "type": "unknown",
-    "message": "1384210339"
+    "created": true,
+    "orderId": "ra6JYYt9_BArQOl71koSf"
+}
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 109
+Connection: keep-alive
+Date: Thu, 29 Oct 2026 09:19:00 GMT
+X-Amzn-Trace-Id: Root=1-6ae30f84-057626ed09edcde041483afa;Parent=72ca991738f88392;Sampled=0;Lineage=1:9ee0f5ed:0
+x-amzn-RequestId: 17f8852a-74a1-4657-89c7-6833b6367b5e
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Headers: Content-Type, Authorization, X-Amz-Date, X-Api-Key, X-Amz-Security-Token
+x-amz-apigw-id: F_9cwF23oAMEGbg=
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, PATCH
+X-Cache: Miss from cloudfront
+Via: 1.1 303e917d845d3965f206781fd60fa0d4.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: BLR50-P4
+X-Amz-Cf-Id: b1os4kI2tHeAC2OcoOw7uvSloOekuoorNc1_mJgDuLDKZZrb72fCGg==
+
+{
+    "id": "ra6JYYt9_BArQOl71koSf",
+    "bookId": 5,
+    "customerName": "Santos Ryan",
+    "quantity": 1,
+    "timestamp": 1793265540095
 }
 ]]></system-out>
   </testcase>
-  <testcase name="testDeleteUserByUsername" classname="api.test.UserTest" time="1.072">
-    <system-out><![CDATA[HTTP/1.1 200 OK
-Date: Mon, 26 Oct 2026 11:16:34 GMT
+  <testcase name="TC5_verifyUserAbleToUpdateTheOrder" classname="api.test.BooksAPITest" time="0.869">
+    <system-out><![CDATA[HTTP/1.1 201 Created
 Content-Type: application/json
-Transfer-Encoding: chunked
+Content-Length: 50
 Connection: keep-alive
+Date: Thu, 29 Oct 2026 09:19:00 GMT
+X-Amzn-Trace-Id: Root=1-6ae30f84-2a12643a5e0950b750981275;Parent=1bed86193cd46a3a;Sampled=0;Lineage=1:9ee0f5ed:0
+x-amzn-RequestId: 03513d78-5a79-4443-8061-7a62a5f1db0a
 Access-Control-Allow-Origin: *
-Access-Control-Allow-Methods: GET, POST, DELETE, PUT
-Access-Control-Allow-Headers: Content-Type, api_key, Authorization
-Server: Jetty(9.2.9.v20150224)
+Access-Control-Allow-Headers: Content-Type, Authorization, X-Amz-Date, X-Api-Key, X-Amz-Security-Token
+x-amz-apigw-id: F_9czHX7IAMEDkw=
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, PATCH
+X-Cache: Miss from cloudfront
+Via: 1.1 7f91d3358cb8b5b50ea653cbde2d162c.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: BLR50-P4
+X-Amz-Cf-Id: EF6p9aKbHombVOcRLR28xUATTR3-9JuV-ePlQhKDs0kJ_Bd6lwRlGA==
 
 {
-    "code": 200,
-    "type": "unknown",
-    "message": "ivey.leuschke"
+    "created": true,
+    "orderId": "9EKTaUTH3ifCawLUu-H8J"
 }
+Ms. Illa Hodkiewicz
+HTTP/1.1 204 No Content
+Content-Type: application/json
+Content-Length: 0
+Connection: keep-alive
+Date: Thu, 29 Oct 2026 09:19:00 GMT
+X-Amzn-Trace-Id: Root=1-6ae30f84-3a2a8e426dae2597358394fa;Parent=3d85548c896fecd3;Sampled=0;Lineage=1:9ee0f5ed:0
+x-amzn-RequestId: 610e0286-92b7-4aa6-a9b8-d5cd451a494c
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Headers: Content-Type, Authorization, X-Amz-Date, X-Api-Key, X-Amz-Security-Token
+x-amz-apigw-id: F_9c2HVwIAMEQRA=
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, PATCH
+X-Cache: Miss from cloudfront
+Via: 1.1 a13dc769d7d600d4873ae50d0f0f8056.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: BLR50-P4
+X-Amz-Cf-Id: U2spzATnCklyumn0zM1XERkCFR5RscPi-8bSfYrSxrUuByj_qleYwg==
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 117
+Connection: keep-alive
+Date: Thu, 29 Oct 2026 09:19:01 GMT
+X-Amzn-Trace-Id: Root=1-6ae30f85-2f1b63fc1654290979195fbe;Parent=75ccd9b16a23cfcf;Sampled=0;Lineage=1:9ee0f5ed:0
+x-amzn-RequestId: 20af1758-6ef0-4e3c-9417-2d66d6075ed8
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Headers: Content-Type, Authorization, X-Amz-Date, X-Api-Key, X-Amz-Security-Token
+x-amz-apigw-id: F_9c5HudoAMEA8g=
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, PATCH
+X-Cache: Miss from cloudfront
+Via: 1.1 f0baf1369e301dc8f36cd909a541181e.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: BLR50-P4
+X-Amz-Cf-Id: u8heMVcrxhnZsuyMzEgT7U_v5sti2BClgEdrauGMdaJmbacIXHR0cQ==
+
+{
+    "id": "9EKTaUTH3ifCawLUu-H8J",
+    "bookId": 5,
+    "customerName": "Ms. Illa Hodkiewicz",
+    "quantity": 1,
+    "timestamp": 1793265540697
+}
+Ms. Illa Hodkiewicz
+]]></system-out>
+  </testcase>
+  <testcase name="TC6_verifyUserAbleToDeleteTheOrder" classname="api.test.BooksAPITest" time="0.542">
+    <system-out><![CDATA[HTTP/1.1 201 Created
+Content-Type: application/json
+Content-Length: 50
+Connection: keep-alive
+Date: Thu, 29 Oct 2026 09:19:01 GMT
+X-Amzn-Trace-Id: Root=1-6ae30f85-341ce2c043df88ae4e6e827c;Parent=4cdb6869d7479240;Sampled=0;Lineage=1:9ee0f5ed:0
+x-amzn-RequestId: b82f7334-acdd-445a-bf7b-7a4428227952
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Headers: Content-Type, Authorization, X-Amz-Date, X-Api-Key, X-Amz-Security-Token
+x-amz-apigw-id: F_9c8G_IIAMEfBg=
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, PATCH
+X-Cache: Miss from cloudfront
+Via: 1.1 00a0f60c17ef48e355a656be0c3da1de.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: BLR50-P4
+X-Amz-Cf-Id: v-kN8ZXZ1QCN20g0XvH7aDY3GXvQonFrRZ-ywrUH2YEFxXwh__l8Mw==
+
+{
+    "created": true,
+    "orderId": "BfgR8ypnRi0bgJZG0XgzQ"
+}
+HTTP/1.1 204 No Content
+Content-Type: application/json
+Content-Length: 0
+Connection: keep-alive
+Date: Thu, 29 Oct 2026 09:19:01 GMT
+X-Amzn-Trace-Id: Root=1-6ae30f85-2c76575330568415427798fc;Parent=2ac8fb0479c2d94b;Sampled=0;Lineage=1:9ee0f5ed:0
+x-amzn-RequestId: 1956f726-73d9-4cea-8496-b6a7f2c5a563
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Headers: Content-Type, Authorization, X-Amz-Date, X-Api-Key, X-Amz-Security-Token
+x-amz-apigw-id: F_9c-FtRoAMEGNg=
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, PATCH
+X-Cache: Miss from cloudfront
+Via: 1.1 dcff30a8fb0dd981edbe6cec4a882dcc.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: BLR50-P4
+X-Amz-Cf-Id: Dg_fg5kD5OS05Ynq6zYQli8zi_KOm9sH0DyHUisxzTyPCOBNmoKGnw==
+]]></system-out>
+  </testcase>
+  <testcase name="TC7_verifyUserAbleToRetrieveListOfAllThePlacedOrders" classname="api.test.BooksAPITest" time="0.455">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 229
+Connection: keep-alive
+Date: Thu, 29 Oct 2026 09:19:02 GMT
+X-Amzn-Trace-Id: Root=1-6ae30f86-0d6eaace659b5df56f5f4047;Parent=3de2454485d64687;Sampled=0;Lineage=1:9ee0f5ed:0
+x-amzn-RequestId: ac315d74-ee5c-43ed-9484-bae54f94ac9e
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Headers: Content-Type, Authorization, X-Amz-Date, X-Api-Key, X-Amz-Security-Token
+x-amz-apigw-id: F_9dBHt4oAMEmRg=
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, PATCH
+X-Cache: Miss from cloudfront
+Via: 1.1 8b6dd0d472e21058db2ca2ab69bddafa.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: BLR50-P4
+X-Amz-Cf-Id: RZhunJ7bpx7YLVOuwyZSEvPu5MC3iAuSPwK9E_vDzNwdc5s5NdJByA==
+
+[
+    {
+        "id": "9EKTaUTH3ifCawLUu-H8J",
+        "bookId": 5,
+        "customerName": "Ms. Illa Hodkiewicz",
+        "quantity": 1,
+        "timestamp": 1793265540697
+    },
+    {
+        "id": "ra6JYYt9_BArQOl71koSf",
+        "bookId": 5,
+        "customerName": "Santos Ryan",
+        "quantity": 1,
+        "timestamp": 1793265540095
+    }
+]
 ]]></system-out>
   </testcase>
 </testsuite>
